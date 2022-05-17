@@ -1,0 +1,148 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: #BBBBBB;
+
+}
+
+#caixa {
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: aquamarine;
+}
+
+section {
+    width: 940px;
+    margin:0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label , .titulos {
+    display: block;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.input-padrão {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+    cursor: text;
+}
+
+.input-demais{
+    cursor: pointer;
+}
+
+.checkbox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.enviar {
+    width: 40%;
+    padding: 20px 0 ;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px 40px;
+    color: aliceblue;
+    background-color: orange;
+    transition: 0.3s all;
+    
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: rgb(255, 68, 0);
+    transform: scale(1.1);
+}
+
+table {
+    margin-bottom: 5%;
+}
+
+thead {
+    background-color: #747474;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid rgba(0, 0, 0, 0.841);
+    padding: 9px 16px;
+}
+
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 50px 0;
+}
+
+footer p {
+    color: aliceblue;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+@media (max-width: 500px) {
+    .meio{
+        width: auto;
+    }
+
+    header{
+        padding-bottom: 2.5vh;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+
+    nav ul a{
+        font-size: 1.2em;
+    }
+
+    section{
+        width: 100%;
+        margin: auto 2vw;
+        margin-right: 2vw;
+    }
+}
+    
+
+

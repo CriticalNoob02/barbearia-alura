@@ -1,0 +1,185 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: linear-gradient(0deg, #fefefe #888888 );
+}
+
+/*Início Cabeçario da pagina*/
+header{
+    background-color: #BBBBBB;
+}
+
+#caixa {
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: aquamarine;
+    
+
+
+}
+/*Fim Cabeçario da pagina*/
+
+/*Inicio Meio da pagina*/
+
+.topo{
+    background-color: #FEFEFE;
+}
+
+.Banner-top{
+    width: 100%;
+}
+
+#texto-base{
+    width: 930px;
+    margin: 0 auto;
+}
+
+#texto-base p{
+    margin: 0 0 1em;
+}
+
+#texto-base strong{
+    font-weight: bold;
+}
+
+#texto-base em{
+    font-style: italic;
+}
+
+.imagem-meio{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0 ;
+}
+
+.Mapa-Base{
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.Mapa{
+    width: 930px;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+
+.Mapa p{
+    margin:0 0 2em;
+    text-align: center;
+}
+
+.Beneficios{
+    background-color: #888888;
+    padding: 2em 0;
+}
+
+.titulo{
+    text-align:center; 
+    font-size: 2.5em;
+    padding: 1em 0;
+}
+
+
+.Conteudo-Beneficios{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.Lista-beneficios{
+    width: 40%;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.Items{
+    line-height: 1.5em;
+}
+
+.Items:before{
+    content:"★"
+}
+
+.banner-beneficios{
+    width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 9px 9px 15px black;
+}
+
+.banner-beneficios:hover{
+    opacity: 0.6;
+}
+
+.Video-base{
+    background-color: #888888;
+    padding: 2em 0;
+}
+
+.Video{
+    width: 560px;
+    margin: 0 auto;
+}
+
+/*Inicio Rodapé da pagina*/
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 50px 0;
+}
+
+footer p {
+    color: aliceblue;
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+/*Inicio Rodapé da pagina*/
+
+@media (max-width: 480px){
+    .meio, #texto-base, .Mapa-Base, .Conteudo-Beneficios, .Video-base, .Mapa, .Video{
+        width: auto;
+    }
+
+    header{
+        padding-bottom: 2.5vh;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+
+    nav ul a{
+        font-size: 1.2em;
+    }
+
+    .Lista-beneficios, .banner-beneficios{
+        width: 95%;
+        text-align: center;
+    }
+}
