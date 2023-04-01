@@ -9,7 +9,7 @@ Para iniciar o projeto siga esses passos:
 ## Resumo
 
 Um projeto desenvolvido apenas com HTML e CSS dentro do curso da Alura.
-Uma pagina de apresentação be, simples, com trocas de aba e formulário.
+Uma pagina de apresentação bem simples, com trocas de aba e formulário.
 
 > Header;
 
